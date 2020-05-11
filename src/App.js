@@ -3,16 +3,37 @@ import dealData from './data'
 import LocationCard from './components/LocationCard';
 import './App.css';
 
+function dow() {
+  var d = new Date();
+  var weekday = [
+    "sunday",
+    "monday",
+    "tuesday",
+    "wednesday",
+    "thursday",
+    "friday",
+    "saturday"
+  ];
+
+  return weekday[d.getDay()];
+}
+
 class App extends React.Component {
   constructor () {
     super()
     this.state = {
-      dayOfWeek: "monday"
+      dayOfWeek: dow()
     }
   }
 
   render () {
-    const locationComponents = dealData.map(location => <LocationCard key={location.id} location={location} />)
+    const locationComponents = dealData
+      .filter(place => 
+        place.specials[this.state.dayOfWeek].length > 0 
+        || 
+        place.happyHours.filter(hhOfDay => hhOfDay.dow.includes(this.state.dayOfWeek)).length > 0)
+      .map(location => 
+        <LocationCard dow={this.state.dayOfWeek} key={location.id} location={location} />)
 
     return (
       <div className="App">
