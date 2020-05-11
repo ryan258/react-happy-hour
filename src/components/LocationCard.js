@@ -7,7 +7,7 @@ export default function LocationCard(props) {
     console.log(props)
     return (
         <article>
-            <h2>{props.location.name}</h2>
+            <h2 className="locationName">{props.location.name}</h2>
             <p>{props.location.location}</p>
             <LocationDailySpecials />
             <LocationHappyHours />
