@@ -9,8 +9,12 @@ export default function LocationCard(props) {
         <article>
             <h2 className="locationName">{props.location.name}</h2>
             <p>{props.location.location}</p>
-            <LocationDailySpecials />
-            <LocationHappyHours />
+            {props.location.specials[props.dow].length > 0 ? (
+                <LocationDailySpecials {...props} />
+            ) : ''}
+            {props.location.happyHours.filter(hh => hh.dow.includes(props.dow)).length > 0 ? (
+                <LocationHappyHours {...props} />
+            ) : ''}
             <LocationLinks />
         </article>
     )

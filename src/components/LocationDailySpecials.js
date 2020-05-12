@@ -1,9 +1,13 @@
 import React from 'react'
 
-function LocationDailySpecials() {
+function LocationDailySpecials(props) {
+    const day = props.dow
+    const specials = props.location.specials[day].map(special => <li>{special}</li>)
+
     return (
         <div>
-            <h3>Daily Specials</h3>
+            <h3>Specials</h3>
+            <ul>{specials}</ul>
         </div>
     )
 }
