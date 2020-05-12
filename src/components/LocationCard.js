@@ -15,7 +15,7 @@ export default function LocationCard(props) {
             {props.location.happyHours.filter(hh => hh.dow.includes(props.dow)).length > 0 ? (
                 <LocationHappyHours {...props} />
             ) : ''}
-            <LocationLinks />
+            <LocationLinks {...props} />
         </article>
     )
 }

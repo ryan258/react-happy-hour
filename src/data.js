@@ -62,7 +62,7 @@ export default [
       },
       "happyHours": [
         {
-          "time": "10pm-Close",
+          "time": "3pm-6pm",
           "specials": [
             "$10 Tequila Flights",
             "$2 off Tap Beers, 16oz Modelo Especial Cans, Sangria, Most Well Drinks",
