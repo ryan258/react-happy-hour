@@ -6,9 +6,9 @@ import LocationLinks from './LocationLinks'
 export default function LocationCard(props) {
     console.log(props)
     return (
-        <article>
+        <article className="locationCard item-masonry">
             <h2 className="locationName">{props.location.name}</h2>
-            <p>{props.location.location}</p>
+            {/* <p>{props.location.location}</p> */}
             {props.location.specials[props.dow].length > 0 ? (
                 <LocationDailySpecials {...props} />
             ) : ''}
@@ -19,3 +19,5 @@ export default function LocationCard(props) {
         </article>
     )
 }
+
+

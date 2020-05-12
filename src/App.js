@@ -1,6 +1,9 @@
 import React from 'react';
 import dealData from './data'
 import LocationCard from './components/LocationCard';
+
+import Button from '@material-ui/core/Button'
+
 import './App.css';
 
 function dow() {
@@ -39,17 +42,17 @@ class App extends React.Component {
       <div className="App">
         <header className="App-header">
           <nav>
-            <button onClick={() => this.setState({ dayOfWeek: 'sunday'})}>S</button>
-            <button onClick={() => this.setState({ dayOfWeek: 'monday'})}>M</button>
-            <button onClick={() => this.setState({ dayOfWeek: 'tuesday'})}>T</button>
-            <button onClick={() => this.setState({ dayOfWeek: 'wednesday'})}>W</button>
-            <button onClick={() => this.setState({ dayOfWeek: 'thursday'})}>T</button>
-            <button onClick={() => this.setState({ dayOfWeek: 'friday'})}>F</button>
-            <button onClick={() => this.setState({ dayOfWeek: 'saturday'})}>S</button>
+            <Button onClick={() => this.setState({ dayOfWeek: 'sunday'})}>S</Button>
+            <Button onClick={() => this.setState({ dayOfWeek: 'monday'})}>M</Button>
+            <Button onClick={() => this.setState({ dayOfWeek: 'tuesday'})}>T</Button>
+            <Button onClick={() => this.setState({ dayOfWeek: 'wednesday'})}>W</Button>
+            <Button onClick={() => this.setState({ dayOfWeek: 'thursday'})}>T</Button>
+            <Button onClick={() => this.setState({ dayOfWeek: 'friday'})}>F</Button>
+            <Button onClick={() => this.setState({ dayOfWeek: 'saturday'})}>S</Button>
           </nav>
           <h1>{this.state.dayOfWeek}</h1>
         </header>
-        <main>
+        <main className="container-masonry">
           {locationComponents}
         </main>
       </div>
