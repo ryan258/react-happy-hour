@@ -2,7 +2,7 @@ import React from 'react'
 
 function LocationDailySpecials(props) {
     const day = props.dow
-    const specials = props.location.specials[day].map(special => <li>{special}</li>)
+    const specials = props.location.specials[day].map((special, key) => <li key={key}>{special}</li>)
 
     return (
         <div>
