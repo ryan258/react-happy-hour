@@ -7,8 +7,8 @@ export default function LocationCard(props) {
     console.log(props)
     return (
         <article className="locationCard item-masonry">
-            <h2 className="locationName">{props.location.name}</h2>
             {/* <p>{props.location.location}</p> */}
+            <h2 className="locationName">{props.location.name}</h2>
             {props.location.specials[props.dow].length > 0 ? (
                 <LocationDailySpecials {...props} />
             ) : ''}

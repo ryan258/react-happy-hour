@@ -1,5 +1,5 @@
 import React from 'react';
-import dealData from './data'
+import dealData from './data-nwa'
 import LocationCard from './components/LocationCard';
 
 import Button from '@material-ui/core/Button'

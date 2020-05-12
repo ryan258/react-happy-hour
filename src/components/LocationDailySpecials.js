@@ -6,7 +6,7 @@ function LocationDailySpecials(props) {
 
     return (
         <div>
-            <h3>Specials</h3>
+            <h3>Specials of the Day</h3>
             <ul>{specials}</ul>
         </div>
     )
