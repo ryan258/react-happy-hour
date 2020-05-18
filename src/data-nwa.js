@@ -484,43 +484,25 @@ export default [
     "googleMap": "https://goo.gl/maps/RLtKrCJ93vnduErD6",
     "specials": {
       "monday": [
-        "Buy any Large Specialty Pizza and get a FREE Kids Spaghetti with Marinara Sauce. (Dine in only)",
-        "$2.50 22oz Coors Light",
-        "1/2 Price Apps (2-5pm)",
-        "$25.99 - \"Family Special\" – Large Regular 1-Topping, Garlic Knots (or Cheese Bread Stix, and 2 Small Garden Salads"
+        "Buy any Large Specialty Pizza and get a FREE Kids Spaghetti with Marinara Sauce. (Dine in only)"
       ],
       "tuesday": [
         "$1 cheese slice (after 4pm)",
-        "$2.50 22oz Coors Light",
-        "1/2 Price Apps (2-5pm)",
-        "$25.99 - \"Family Special\" – Large Regular 1-Topping, Garlic Knots (or Cheese Bread Stix, and 2 Small Garden Salads"
       ],
       "wednesday": [
         "$.75 Wings (Dine in only)",
-        "$4 glasses of wine",
-        "$2.50 22oz Coors Light",
-        "1/2 Price Apps (2-5pm)",
-        "$25.99 - \"Family Special\" – Large Regular 1-Topping, Garlic Knots (or Cheese Bread Stix, and 2 Small Garden Salads"
+        "$4 glasses of wine"
       ],
       "thursday": [
-        "Sandwich chip/fries and drink $7.99",
-        "$2.50 22oz Coors Light",
-        "1/2 Price Apps (2-5pm)",
-        "$25.99 - \"Family Special\" – Large Regular 1-Topping, Garlic Knots (or Cheese Bread Stix, and 2 Small Garden Salads"
+        "Sandwich chip/fries and drink $7.99"
       ],
       "friday": [
-        "$2.50 22oz Coors Light",
-        "1/2 Price Apps (2-5pm)",
-        "$25.99 - \"Family Special\" – Large Regular 1-Topping, Garlic Knots (or Cheese Bread Stix, and 2 Small Garden Salads"
       ],
       "saturday": [
-        "$9.99 16in Regular 1-Topping Pizza (11-5pm Dine in only)",
-        "$2.50 22oz Coors Light",
-        "$25.99 - \"Family Special\" – Large Regular 1-Topping, Garlic Knots (or Cheese Bread Stix, and 2 Small Garden Salads"
+        "$9.99 16in Regular 1-Topping Pizza (11-5pm Dine in only)"
       ],
       "sunday": [
-        "$2.50 22oz Coors Light",
-        "$25.99 - \"Family Special\" – Large Regular 1-Topping, Garlic Knots (or Cheese Bread Stix, and 2 Small Garden Salads"
+        
       ]
     },
     "happyHours": [
@@ -528,6 +510,20 @@ export default [
         "time": "2pm-5pm",
         "specials": ["1/2 Price Appetizers!"],
         "dow": ["monday", "tuesday", "wednesday", "thursday", "friday"]
+      },
+      {
+        "time": "All Day, Every Day!",
+        "specials": ["$2.50 22oz Coors Light",
+        "$25.99 - \"Family Special\" – Large Regular 1-Topping, Garlic Knots (or Cheese Bread Stix, and 2 Small Garden Salads"],
+        "dow": [
+          "saturday",
+          "sunday",
+          "monday",
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
       }
     ]
   },
@@ -610,15 +606,27 @@ export default [
     "happyHours": [
       {
         "time": "4-7pm",
-        "specials": ["...drinkSpecials?"],
+        "specials": ["$2.25 All Domestic Drafts",
+      "$3 House Wines", "$3 Well Drinks", "$4 Select Premium Drafts", "$4 Angry Onion, Mini Chicken Quesadilla, Nashville Hot Cheese Fries", "$5 2 Mini Chicken Tacos w/ Chips & Salsa", "$6 2 Mini Beef Tacos w/ Chips & Salsa, Irish Nachos, 8PC Boom Boom Shrimp"],
         "dow": [
+          "monday",
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ]
+      },
+      {
+        "time": "All Day, Every Day!",
+        "specials": ["$1.75 16oz Beef's 185 Lager", "$2.50 22oz Beef's 185 Lager"],
+        "dow": [
+          "saturday",
           "sunday",
           "monday",
           "tuesday",
           "wednesday",
           "thursday",
-          "friday",
-          "saturday"
+          "friday"
         ]
       }
     ]
