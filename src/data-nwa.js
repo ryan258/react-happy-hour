@@ -9,38 +9,38 @@ export default [
     googleMap:
       "https://www.google.com/maps/place/Twin+Peaks+Rogers/@36.3011917,-94.1738379,15z/data=!4m5!3m4!1s0x0:0xca20801366951863!8m2!3d36.3011917!4d-94.1738379",
     specials: {
-      monday: ["$3 Domestic Brews - 22oz", "$4 Mules", "$5 Cheeseburgers"],
+      monday: ["$3 22oz Domestic Brews", "$4 Mules", "$5 Cheeseburgers"],
       tuesday: [
-        "$3 Mexican Bews - 22oz",
+        "$3 22oz Mexican Bews",
         "$4 Peaks Margarita",
         "$5 All Tacos (no modifications)",
-        "$15 Buckets - Import",
+        "$15 Import Buckets",
       ],
       wednesday: [
-        "$3 Twin Peaks Brew - 22oz",
+        "$3 22oz Twin Peaks Brew",
         "$4 Tito's Tea",
         "$5 Texas Philly & Fries",
-        "$15 Buckets - Import",
+        "$15 Import Buckets",
       ],
       thursday: [
-        "$3 Twin Peaks Brews - 22oz",
-        "$3 Domestic Brews - 22oz",
+        "$3 22oz Twin Peaks Brews",
+        "$3 22oz Domestic Brews",
         "$5 Irish Trash Can",
         "$7 All Chicken Sandwiches",
-        "$15 Buckets - Import",
+        "$15 Import Buckets",
       ],
       friday: [],
       saturday: [
         "$3 Mimosas",
         "$5 Sangrias",
         "$10 Peaks Sampler",
-        "$15 Buckets - Import",
+        "$15 Import Buckets",
       ],
       sunday: [
         "$3 Mimosas",
         "$5 Sangrias",
         "$10 Peaks Sampler",
-        "$15 Buckets - Import",
+        "$15 Import Buckets",
       ],
     },
     happyHours: [
@@ -134,7 +134,8 @@ export default [
     name: "Gusano's",
     location: "Bentonville",
     website: "https://gusanos.pizza/bentonville/",
-    facebook: "https://www.facebook.com/gusanosbentonville/",
+    facebook:
+      "https://www.facebook.com/Gusanos-Chicago-Style-Pizzeria-109101070783045/",
     instagram:
       "https://www.instagram.com/explore/locations/138576752827437/gusanos-chicago-style-pizzeria-bentonville-ar/",
     googleMap: "https://goo.gl/maps/gE3hRqDaW2rUXfi28",
@@ -285,7 +286,7 @@ export default [
         specials: [
           "$2.50 Domestic Pints",
           "1/2 Cocktails",
-          "$1 off 22pz Drafts",
+          "$1 off 22oz Drafts",
           "$1 off Wine Glasses",
           "$3 off Wine Bottles",
           "$5 Bites - Asian Chicken Wonton Nachos, Mexican Street Corn Quesadilla, Bavarian Pretzels, Loaded Pot Stickers, Guacamole & Chips",
@@ -590,8 +591,8 @@ export default [
       ],
       wednesday: [
         "Wing Wednesday!",
-        ".59 Boneless Wings",
-        ".79 Traditional Wings",
+        "$.59 Boneless Wings",
+        "$.79 Traditional Wings",
       ],
       thursday: [
         "$9.99 Fajitas (Chicken, Angus Skirt Steak, or Grilled Shrimp)",
@@ -616,10 +617,7 @@ export default [
       },
       {
         time: "All Day, Every Day!",
-        specials: [
-          "$1.75 16oz Beef's 185 Lager",
-          "$2.50 22oz Beef's 185 Lager",
-        ],
+        specials: ["$1.75 16oz Beef's 35 Lager", "$2.50 22oz Beef's 35 Lager"],
         dow: [
           "saturday",
           "sunday",
@@ -678,7 +676,7 @@ export default [
       {
         time: "4-7pm",
         specials: [
-          ".50 off Draft Beer",
+          "$.50 off Draft Beer",
           "$2.50 Domestic Beers",
           "$4 House Wine",
           "$4 Well Drinks",

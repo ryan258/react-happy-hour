@@ -1,18 +1,8 @@
-/* .App {
+:root {
+  --base-color: #fff;
+  --border-color: #ccc;
 }
 
-.locationCard {
-  border: 1px solid #fff;
-}
-
-.locationName {
-  color: red;
-}
-
-.locationLinks a {
-  background: #fff;
-  margin: 10px;
-} */
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -25,19 +15,47 @@ h1 {
   text-align: center;
   text-transform: uppercase;
 }
+
+h2 {
+  background-color: #111;
+  color: var(--base-color);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0.65rem 0.83rem;
+}
+
 h3 {
-  background-color: #ddd;
+  background-color: #111;
+  color: var(--base-color);
+  border-bottom: 1px solid #ccc;
+  display: inline-block;
+  padding: 0.415rem 0.83rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.25em;
 }
 
 h4 {
   /* text-decoration: underline; */
-  border-bottom: 1px solid;
+  /* background-color: #111; */
+  /* color: #eee; */
+  color: #111;
+  /* font-weight: 500; */
+  border-bottom: 1px solid #111;
+  margin-top: 0;
   margin-bottom: 0;
+  /* margin-left: 0.54rem; */
+  margin-left: 0.83rem;
+  /* padding: 0.4rem 0.4rem 0.4rem 0.29rem; */
+  padding: 0.4rem 0.4rem 0.4rem 0rem;
+
+  /* margin-right: 0.83rem; */
 }
 
 ul {
   list-style: none;
   padding: 0;
+  padding-left: 0.83rem;
+  padding-right: 0.83rem;
   line-height: 1.5;
   margin-top: 0.5em;
 }
@@ -58,7 +76,7 @@ ul {
   display: inline-block;
   margin: 0 0 1em;
   width: 100%;
-  padding: 0 1em 1em;
+  padding: 0;
   margin: 0 0 1.5em;
   width: 100%;
   transition: all 1s ease inherit;
@@ -109,11 +127,17 @@ ul {
 
 .locationLinks {
   /* text-align: center; */
+  background-color: #111;
   display: flex;
   justify-content: space-around;
 }
 
 .locationLinks a {
+  color: #eee;
   font-size: 1.25rem;
-  color: #000;
+  padding: 10px 0 6px;
+}
+
+.locationLinks path {
+  stroke: #eee;
 }
