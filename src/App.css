@@ -8,11 +8,16 @@
 }
 
 body {
-  background-color: #f1e9c0;
+  /* background-color: #f1e9c0; */
+  background-color: #fc0d19fa;
 }
 
 nav {
   text-align: center;
+}
+
+.MuiButton-label {
+  font-weight: bold;
 }
 
 h1 {
@@ -77,6 +82,7 @@ ul {
 
 .item-masonry {
   background-color: #eee;
+  border: 1px solid #111;
   display: inline-block;
   margin: 0 0 1em;
   width: 100%;
