@@ -558,13 +558,16 @@ export default [
     instagram: "https://instagram.com/big.whiskeys",
     googleMap: "https://goo.gl/maps/s3dxyaPJZv2BL4tb8",
     specials: {
-      monday: [],
-      tuesday: ["Free Kids Meal with the Purchase of an Adult Entree"],
-      wednesday: [],
-      thursday: [],
-      friday: [],
-      saturday: [],
-      sunday: [],
+      monday: ["After 6pm: $12 Domestic Buckets"],
+      tuesday: [
+        "After 6pm: $5 Stir Crazy",
+        "Free Kids Meal with the Purchase of an Adult Entree",
+      ],
+      wednesday: ["After 6pm: $6 Fishbowl"],
+      thursday: ["After 6pm: $5 Martini's"],
+      friday: ["After 6pm: $6 Old Fashioned"],
+      saturday: ["$2 off Flights"],
+      sunday: ["$2.50 Domestics", "$3.50 Craft/Import Drafts"],
     },
     happyHours: [
       {
@@ -617,7 +620,7 @@ export default [
       },
       {
         time: "All Day, Every Day!",
-        specials: ["$1.75 16oz Beef's 35 Lager", "$2.50 22oz Beef's 35 Lager"],
+        specials: ["$1.50 16oz Beef's 35 Lager", "$2.50 22oz Beef's 35 Lager"],
         dow: [
           "saturday",
           "sunday",
@@ -804,17 +807,15 @@ export default [
       {
         time: "All Day!",
         specials: ["$3 Wines", "$3 Wells", "$3 Brews"],
-        dow: ["thursday"],
-      },
-      {
-        time: "3-6pm",
-        specials: ["$3 Wines", "$3 Wells", "$3 Brews"],
-        dow: ["monday", "tuesday", "wednesday"],
-      },
-      {
-        time: "3-9pm",
-        specials: ["$3 Wines", "$3 Wells", "$3 Brews"],
-        dow: ["friday"],
+        dow: [
+          "saturday",
+          "sunday",
+          "monday",
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+        ],
       },
       {
         time: "3-6pm",
