@@ -140,20 +140,12 @@ export default [
       "https://www.instagram.com/explore/locations/138576752827437/gusanos-chicago-style-pizzeria-bentonville-ar/",
     googleMap: "https://goo.gl/maps/gE3hRqDaW2rUXfi28",
     specials: {
-      monday: ["$6.50 Domestic Pitchers", "$5 Wings", "$1.99 Kids Pizza"],
-      tuesday: ["$2 Chicago Dogs", "$2 Domestic Bottles"],
-      wednesday: [
-        '$9.99 - "Hawg Special" - 13" 1-Topping Pizza (Dine-in only, After 4pm)',
-        "$10 Craft Pitchers",
-      ],
-      thursday: ["1/2 Price Apps", "All Day Happy Hour"],
-      friday: ["$8.49 Lunch Special", "$3 House Wines"],
-      saturday: [
-        '$19.99 13" 2-Topping Pizza + Pitcher',
-        '$19.99 13" 1-Topping Pizza + Wings',
-        "$6.50 Domestic Pitchers",
-        "$2 Domestic Drafts",
-      ],
+      monday: ["$6.50 Domestic Pitchers"],
+      tuesday: ["$2 Domestic Bottles"],
+      wednesday: ["$10 Craft Pitchers"],
+      thursday: ["All Day Happy Hour"],
+      friday: ["$3 House Wines"],
+      saturday: ["$6.50 Domestic Pitchers", "$2 Domestic Drafts"],
       sunday: [
         "$2 Mimosas",
         "$2 Bloody Marys",
@@ -797,7 +789,7 @@ export default [
     specials: {
       monday: ["$20 for 2 Meals"],
       tuesday: ["$20 Prime Rib Special (3pm Until Sold Out)"],
-      wednesday: [],
+      wednesday: ["Chicken Tenders + POA Discount (After 4pm?)"],
       thursday: ["$12 Chicken Fried Steak"],
       friday: [],
       saturday: [],
