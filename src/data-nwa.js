@@ -789,7 +789,7 @@ export default [
     specials: {
       monday: ["$20 for 2 Meals"],
       tuesday: ["$20 Prime Rib Special (3pm Until Sold Out)"],
-      wednesday: ["Chicken Tenders + POA Discount (After 4pm?)"],
+      wednesday: ["Chicken Wings + POA Discount (After 4pm?)"],
       thursday: ["$12 Chicken Fried Steak"],
       friday: [],
       saturday: [],
