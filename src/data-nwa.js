@@ -844,7 +844,7 @@ export default [
           "$2 House Spirits",
           "$2 16oz Domestic Drafts",
           "$3 House Wines",
-          "$6 42oz Domestic Pitchers",
+          "$6 48oz Domestic Pitchers",
         ],
         dow: [
           "saturday",
