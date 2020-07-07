@@ -1,10 +1,16 @@
 import React from "react";
+import ReactGA from "react-ga";
 import dealData from "./data-nwa";
 import LocationCard from "./components/LocationCard";
 
 import Button from "@material-ui/core/Button";
 
 import "./App.css";
+
+function initializeAnalytics() {
+  ReactGA.initialize("UA-171813998-1");
+  ReactGA.pageview(window.location.pathname + window.location.search);
+}
 
 function dow() {
   var d = new Date();
@@ -30,6 +36,8 @@ class App extends React.Component {
   }
 
   render() {
+    initializeAnalytics();
+
     const locationComponents = dealData
       .sort((a, b) => (a.name > b.name ? 1 : -1))
       .filter(

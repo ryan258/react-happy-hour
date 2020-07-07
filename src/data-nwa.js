@@ -645,8 +645,12 @@ export default [
     happyHours: [
       {
         time: "4-6pm",
-        specials: ["...drinkSpecials?"],
-        dow: ["monday", "tuesday", "wednesday", "thursday", "friday"],
+        specials: [
+          "$3 Arkansas Fritters",
+          "$3 Basket of Pork Rinds",
+          "$3 Basket of Pommes Frites",
+        ],
+        dow: ["wednesday", "thursday", "friday"],
       },
     ],
   },
