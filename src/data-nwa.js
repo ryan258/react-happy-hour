@@ -8,40 +8,61 @@ export default [
     instagram: "https://www.instagram.com/rogerstwinpeaks/",
     googleMap:
       "https://www.google.com/maps/place/Twin+Peaks+Rogers/@36.3011917,-94.1738379,15z/data=!4m5!3m4!1s0x0:0xca20801366951863!8m2!3d36.3011917!4d-94.1738379",
+    openHours: {
+      monday: {
+        open: 1100,
+        close: 2400,
+      },
+      tuesday: {
+        open: 1100,
+        close: 2400,
+      },
+      wednesday: {
+        open: 1100,
+        close: 2400,
+      },
+      thursday: {
+        open: 1100,
+        close: 2500,
+      },
+      friday: {
+        open: 1100,
+        close: 2600,
+      },
+      saturday: {
+        open: 1100,
+        close: 2600,
+      },
+      sunday: {
+        open: 1100,
+        close: 2400,
+      },
+    },
     specials: {
-      monday: ["$3 22oz Domestic Brews", "$4 Mules", "$5 Cheeseburgers"],
+      monday: [
+        "$3 22oz Domestic Brews",
+        "$5 Mules (Mexican, Moscow, & Kentucky)",
+        "$5 Cheeseburgers & Fries",
+        "$2 Domestic Bottles",
+      ],
       tuesday: [
-        "$3 22oz Mexican Bews",
-        "$4 Peaks Margarita",
-        "$5 All Tacos (no modifications)",
-        "$15 Import Buckets",
+        "$5 Peaks Margarita",
+        "$6 Tacos (Buffalo Chicken, Blackened Haddock, & Smoked Brisket)",
+        "$2 Domestic Bottles",
       ],
       wednesday: [
-        "$3 22oz Twin Peaks Brew",
-        "$4 Tito's Tea",
-        "$5 Texas Philly & Fries",
-        "$15 Import Buckets",
+        "$5 Tito's Tea",
+        "$7 Texas Philly & Fries",
+        "$2 Domestic Bottles",
       ],
       thursday: [
-        "$3 22oz Twin Peaks Brews",
-        "$3 22oz Domestic Brews",
         "$5 Irish Trash Can",
-        "$7 All Chicken Sandwiches",
-        "$15 Import Buckets",
+        "$8 Chicken Sandwiches (Chicken Ranch, Southern Fried, & Nashville Hot Chicken)",
+        "$2 Domestic Bottles",
       ],
-      friday: [],
-      saturday: [
-        "$3 Mimosas",
-        "$5 Sangrias",
-        "$10 Peaks Sampler",
-        "$15 Import Buckets",
-      ],
-      sunday: [
-        "$3 Mimosas",
-        "$5 Sangrias",
-        "$10 Peaks Sampler",
-        "$15 Import Buckets",
-      ],
+      friday: ["Bourbon & Brews (5-7pm)"],
+      saturday: ["$4 Mimosas", "$5 Sangrias", "$10 Peaks Sampler"],
+      sunday: ["$4 Mimosas", "$5 Sangrias", "$10 Peaks Sampler"],
     },
     happyHours: [
       {
@@ -58,15 +79,17 @@ export default [
       {
         time: "10pm-Close: Midnight Munchies!",
         specials: [
-          "$2 22oz Twin Peaks Brews",
+          "$6 Handhelds",
+          "$1.50  10oz Domestic Brews",
+          "$2.50  10oz Twin Peaks Brews",
           "$3 22oz Domestic Brews",
-          "$6 All Handhelds",
+          "$4.50  22oz Twin Peaks Brews",
         ],
         dow: ["sunday", "monday", "tuesday", "wednesday", "thursday"],
       },
       {
         time: "All Day, Every Day!",
-        specials: ["$10 Domestic Buckets", "$15 Import Buckets"],
+        specials: ["$3.99 Select Shots"],
         dow: [
           "saturday",
           "sunday",
@@ -87,6 +110,36 @@ export default [
     facebook: "https://www.facebook.com/smittysgaragerogers/",
     instagram: "https://www.instagram.com/thegarage_burgers/",
     googleMap: "https://goo.gl/maps/YXqbVjKDR5Af3jtt8",
+    openHours: {
+      monday: {
+        open: 1100,
+        close: 2200,
+      },
+      tuesday: {
+        open: 1100,
+        close: 2200,
+      },
+      wednesday: {
+        open: 1100,
+        close: 2200,
+      },
+      thursday: {
+        open: 1100,
+        close: 2200,
+      },
+      friday: {
+        open: 1100,
+        close: 2200,
+      },
+      saturday: {
+        open: 1100,
+        close: 2200,
+      },
+      sunday: {
+        open: 1100,
+        close: 2200,
+      },
+    },
     specials: {
       monday: [],
       tuesday: [],
@@ -100,9 +153,10 @@ export default [
       {
         time: "3-6pm",
         specials: [
-          "$2 Domestics",
+          "$2.50 Domestics",
           "$3 House Wines",
-          "$4.99 Specialty Cocktails",
+          "$5 Tiki Drinks",
+          "$1 off Local Beers",
         ],
         dow: ["monday", "tuesday", "wednesday", "thursday", "friday"],
       },
@@ -112,23 +166,22 @@ export default [
     id: "after5rogers",
     name: "After 5 Bar & Grill",
     location: "Rogers",
-    website: "",
+    website: "https://www.facebook.com/guccigasstation/",
     facebook: "https://www.facebook.com/guccigasstation/",
     instagram:
       "https://www.instagram.com/explore/locations/162865594322800/after-5-bar-grill/",
     googleMap: "https://goo.gl/maps/ExRnsk63bZQwjuQJ9",
     specials: {
-      monday: ["$2.50 Drafts", "$.50 off Craft Bottles"],
-      tuesday: ["$1 Domestic Bottles"],
-      wednesday: ["$2 Whiteclaw/Truly", "$2.50 Wine"],
-      thursday: ["$5 Jack Daniels, Jameson, and Crown Royal"],
-      friday: ["$3 Fireball Shots", "$3 Well Drinks"],
-      saturday: ["$2.50 Wine", "$2.50 Drafts", "$3 Well Drinks"],
+      monday: [],
+      tuesday: [],
+      wednesday: [],
+      thursday: [],
+      friday: [],
+      saturday: [],
       sunday: [],
     },
     happyHours: [],
   },
-
   {
     id: "gusanosbentonville",
     name: "Gusano's",
@@ -139,19 +192,44 @@ export default [
     instagram:
       "https://www.instagram.com/explore/locations/138576752827437/gusanos-chicago-style-pizzeria-bentonville-ar/",
     googleMap: "https://goo.gl/maps/gE3hRqDaW2rUXfi28",
+    openHours: {
+      monday: {
+        open: 1100,
+        close: 2000,
+      },
+      tuesday: {
+        open: 1100,
+        close: 2000,
+      },
+      wednesday: {
+        open: 1100,
+        close: 2000,
+      },
+      thursday: {
+        open: 1100,
+        close: 2000,
+      },
+      friday: {
+        open: 1100,
+        close: 2000,
+      },
+      saturday: {
+        open: 1100,
+        close: 2000,
+      },
+      sunday: {
+        open: 1100,
+        close: 2000,
+      },
+    },
     specials: {
-      monday: ["$6.50 Domestic Pitchers"],
+      monday: [],
       tuesday: ["$2 Domestic Bottles"],
-      wednesday: ["$10 Craft Pitchers"],
-      thursday: ["All Day Happy Hour"],
+      wednesday: [],
+      thursday: [],
       friday: ["$3 House Wines"],
-      saturday: ["$6.50 Domestic Pitchers", "$2 Domestic Drafts"],
-      sunday: [
-        "$2 Mimosas",
-        "$2 Bloody Marys",
-        "$2 Screwdrivers",
-        "$12 Domestic Buckets",
-      ],
+      saturday: ["$2 Domestic Drafts"],
+      sunday: ["$2 Mimosas", "$2 Bloody Marys", "$2 Screwdrivers"],
     },
     happyHours: [
       {
@@ -174,6 +252,36 @@ export default [
     facebook: "https://www.facebook.com/JJsGrillRogers/",
     instagram: "https://www.instagram.com/jjsgrill/",
     googleMap: "https://goo.gl/maps/hWm41PP4QhZ3bGWZA",
+    openHours: {
+      monday: {
+        open: 1100,
+        close: 2400,
+      },
+      tuesday: {
+        open: 1100,
+        close: 2200,
+      },
+      wednesday: {
+        open: 1100,
+        close: 2200,
+      },
+      thursday: {
+        open: 1100,
+        close: 2200,
+      },
+      friday: {
+        open: 1100,
+        close: 2200,
+      },
+      saturday: {
+        open: 1100,
+        close: 2400,
+      },
+      sunday: {
+        open: null,
+        close: null,
+      },
+    },
     specials: {
       monday: [
         "$5 Moscow or Kentucky Mule",
@@ -207,14 +315,14 @@ export default [
         "$3 JJ's McFizzle Shot",
         "$1.99 Frozen Margaritas",
       ],
-      sunday: [
-        "$5 Smithworks Bloody Mary",
-        "$12 Mimosa Bucket",
-        "$5 Breakfast Shot",
-        "$1.99 Frozen Margaritas",
-      ],
+      sunday: [],
     },
     happyHours: [
+      {
+        time: "During NFL Primetime Games",
+        specials: ["Flip for Your Burger!", "$10 Domestic Buckets"],
+        dow: ["monday", "thursday"],
+      },
       {
         time: "3-6pm",
         specials: [
@@ -228,7 +336,6 @@ export default [
           "$25 25 Strips 'n 25 Wings",
         ],
         dow: [
-          "sunday",
           "monday",
           "tuesday",
           "wednesday",
@@ -252,7 +359,6 @@ export default [
       },
     ],
   },
-
   {
     id: "davebustersrogers",
     name: "Dave & Buster's",
@@ -261,41 +367,56 @@ export default [
     facebook: "https://www.facebook.com/DnBRogersAR",
     instagram: "https://www.instagram.com/daveandbusters/",
     googleMap: "https://goo.gl/maps/ProinniHCWE2MdUQA",
+    openHours: {
+      monday: {
+        open: 1600,
+        close: 2300,
+      },
+      tuesday: {
+        open: 1600,
+        close: 2200,
+      },
+      wednesday: {
+        open: 1200,
+        close: 2200,
+      },
+      thursday: {
+        open: 1200,
+        close: 2300,
+      },
+      friday: {
+        open: 1200,
+        close: 2300,
+      },
+      saturday: {
+        open: 1100,
+        close: 2300,
+      },
+      sunday: {
+        open: 1100,
+        close: 2300,
+      },
+    },
     specials: {
-      monday: ["$19.99 Unlimited Wings & Video Games"],
-      tuesday: [
-        "$2 Corona/Corona Light & 2 FREE Game Plays with $10 Power Card purchase",
-      ],
+      monday: [],
+      tuesday: [],
       wednesday: ["1/2 Price Games"],
-      thursday: ["$19.99 Unlimited Wings & Video Games"],
+      thursday: [],
       friday: [],
       saturday: [],
-      sunday: ["$19.99 Unlimited Wings & Video Games"],
+      sunday: [],
     },
     happyHours: [
       {
-        time: "3-7pm",
+        time: "4-7pm",
         specials: [
           "$2.50 Domestic Pints",
           "1/2 Cocktails",
           "$1 off 22oz Drafts",
           "$1 off Wine Glasses",
           "$3 off Wine Bottles",
-          "$5 Bites - Asian Chicken Wonton Nachos, Mexican Street Corn Quesadilla, Bavarian Pretzels, Loaded Pot Stickers, Guacamole & Chips",
         ],
-        dow: ["monday", "tuesday", "wednesday", "thursday", "friday"],
-      },
-      {
-        time: "9pm-Midnight",
-        specials: [
-          "$2.50 Domestic Pints",
-          "1/2 Cocktails",
-          "$1 off 22pz Drafts",
-          "$1 off Wine Glasses",
-          "$3 off Wine Bottles",
-          "$5 Bites - Asian Chicken Wonton Nachos, Mexican Street Corn Quesadilla, Bavarian Pretzels, Loaded Pot Stickers, Guacamole & Chips",
-        ],
-        dow: ["sunday", "monday", "tuesday", "wednesday", "thursday"],
+        dow: ["wednesday", "thursday", "friday"],
       },
     ],
   },
@@ -308,6 +429,36 @@ export default [
     instagram:
       "https://www.instagram.com/explore/locations/169354685/boars-nest-rogers/",
     googleMap: "https://g.page/boarsnestrogers?share",
+    openHours: {
+      monday: {
+        open: 1500,
+        close: 2500,
+      },
+      tuesday: {
+        open: 1500,
+        close: 2500,
+      },
+      wednesday: {
+        open: 1500,
+        close: 2500,
+      },
+      thursday: {
+        open: 1500,
+        close: 2500,
+      },
+      friday: {
+        open: 1100,
+        close: 2500,
+      },
+      saturday: {
+        open: 1100,
+        close: 2500,
+      },
+      sunday: {
+        open: 1100,
+        close: 2500,
+      },
+    },
     specials: {
       monday: ["$1.25 Wings", "$6 32oz Mug ($3 Domestic / $4 Craft Refills)"],
       tuesday: ["All Day Happy Hour", "$5.99 Street Taco Basket"],
@@ -322,9 +473,14 @@ export default [
         "$1.50 Ribs",
         "$4 Boys (Jim, Jack, Johnny & Jose)",
         "$10 Domestic Buckets",
-        "$15 Mexican Buckets",
+        "$14 Margarita Pitchers",
       ],
-      sunday: ["$3 Bloody Mary's and Mimosa's", "$2 Millers"],
+      sunday: [
+        "$3 Bloody Mary",
+        "$3 Mimosa",
+        "$2 Miller Lite Pints",
+        "$6.99 Sloppy Joe w/ Fries",
+      ],
     },
     happyHours: [
       {
@@ -333,9 +489,19 @@ export default [
           "$2.25 Domestic bottles",
           "$2.50 Wine",
           "$2.50 Wells",
-          "1/2 price Appetizers",
+          "1/2 price Appetizers (Nachos, Chips & Salsa, Fried Pickles, Cheese Fries)",
         ],
         dow: ["monday", "tuesday", "wednesday", "thursday", "friday"],
+      },
+      {
+        time: "All Day",
+        specials: [
+          "$2.25 Domestic bottles",
+          "$2.50 Wine",
+          "$2.50 Wells",
+          "1/2 price Appetizers (Nachos, Chips & Salsa, Fried Pickles, Cheese Fries)",
+        ],
+        dow: ["tuesday"],
       },
       {
         time: "11am-3pm",
@@ -343,7 +509,7 @@ export default [
           "$2.25 Domestic bottles",
           "$2.50 Wine",
           "$2.50 Wells",
-          "1/2 price Appetizers",
+          "1/2 price Appetizers (Nachos, Chips & Salsa, Fried Pickles, Cheese Fries)",
         ],
         dow: ["saturday"],
       },
@@ -357,6 +523,36 @@ export default [
     facebook: "https://www.facebook.com/pg/carinositalian",
     instagram: "https://www.instagram.com/johnnycarinos/",
     googleMap: "https://goo.gl/maps/42pTt3LQzuhkW9136",
+    openHours: {
+      monday: {
+        open: 1100,
+        close: 2100,
+      },
+      tuesday: {
+        open: 1100,
+        close: 2100,
+      },
+      wednesday: {
+        open: 1100,
+        close: 2100,
+      },
+      thursday: {
+        open: 1100,
+        close: 2100,
+      },
+      friday: {
+        open: 1100,
+        close: 2200,
+      },
+      saturday: {
+        open: 1100,
+        close: 2200,
+      },
+      sunday: {
+        open: 1100,
+        close: 2100,
+      },
+    },
     specials: {
       monday: ["$3 Well Drinks", "2 for 1 Regular Pizzas"],
       tuesday: ["$2 Johnny's Margarita", "$.50 Sweet Chili Shrimp"],
@@ -394,26 +590,56 @@ export default [
     instagram:
       "https://www.instagram.com/explore/locations/586357318200574/foghorns-rogers/",
     googleMap: "https://goo.gl/maps/TUiCqbTaAQNYtfKw8",
+    openHours: {
+      monday: {
+        open: 1100,
+        close: 2300,
+      },
+      tuesday: {
+        open: 1100,
+        close: 2200,
+      },
+      wednesday: {
+        open: 1100,
+        close: 2300,
+      },
+      thursday: {
+        open: 1100,
+        close: 2200,
+      },
+      friday: {
+        open: 1100,
+        close: 2300,
+      },
+      saturday: {
+        open: 1100,
+        close: 2300,
+      },
+      sunday: {
+        open: 1100,
+        close: 2200,
+      },
+    },
     specials: {
-      monday: ["$2 Off Any Burger w/ Side"],
-      tuesday: ["$.79 Wings (Traditional or Boneless)"],
-      wednesday: ["Kids Eat Free (w/ Adult Meal)", "$1 Off All Bottled Beer"],
-      thursday: ["$.79 Boneless Wings"],
-      friday: ["$3.50 Fireball Shots"],
+      monday: ["??$2 Off Any Burger w/ Side"],
+      tuesday: ["??$.79 Wings (Traditional or Boneless)"],
+      wednesday: ["??Kids Eat Free (w/ Adult Meal)", "$1 Off All Bottled Beer"],
+      thursday: ["??$.79 Boneless Wings"],
+      friday: ["??$3.50 Fireball Shots"],
       saturday: [
-        "$3 Well Bloody Marys and Mimosas",
-        "$4 Flavored Vodka Bloody Marys",
-        "$5 Premium Vodka Bloody Marys",
+        "??$3 Well Bloody Marys and Mimosas",
+        "??$4 Flavored Vodka Bloody Marys",
+        "??$5 Premium Vodka Bloody Marys",
       ],
       sunday: [
-        "$3 Well Bloody Marys and Mimosas",
-        "$4 Flavored Vodka Bloody Marys",
-        "$5 Premium Vodka Bloody Marys",
+        "??$3 Well Bloody Marys and Mimosas",
+        "??$4 Flavored Vodka Bloody Marys",
+        "??$5 Premium Vodka Bloody Marys",
       ],
     },
     happyHours: [
       {
-        time: "3-6pm",
+        time: "??3-6pm",
         specials: [
           "$2.50 Domestic Drafts",
           "$1 off Wine",
@@ -424,12 +650,12 @@ export default [
         dow: ["monday", "tuesday", "wednesday", "thursday", "friday"],
       },
       {
-        time: "8-9pm",
+        time: "??8-9pm",
         specials: ["$2.50 Domestic Drafts", "$2.50 Wells"],
         dow: ["monday", "tuesday", "wednesday", "thursday", "friday"],
       },
       {
-        time: "11am-3pm",
+        time: "??11am-3pm",
         specials: [
           "$2.25 Domestic bottles",
           "$2.50 Wine",
@@ -448,6 +674,36 @@ export default [
     facebook: "https://www.facebook.com/eatatpressroom/",
     instagram: "https://www.instagram.com/eatatpressroom/",
     googleMap: "https://goo.gl/maps/tpxwAo1aKgTz1sZMA",
+    openHours: {
+      monday: {
+        open: 1100,
+        close: 2100,
+      },
+      tuesday: {
+        open: null,
+        close: null,
+      },
+      wednesday: {
+        open: null,
+        close: null,
+      },
+      thursday: {
+        open: 1100,
+        close: 2300,
+      },
+      friday: {
+        open: 1100,
+        close: 2300,
+      },
+      saturday: {
+        open: 900,
+        close: 2300,
+      },
+      sunday: {
+        open: 900,
+        close: 1500,
+      },
+    },
     specials: {
       monday: [],
       tuesday: [],
@@ -461,14 +717,12 @@ export default [
       {
         time: "3pm-6pm",
         specials: ["It's a mystery!"],
-        dow: [
-          "monday",
-          "tuesday",
-          "wednesday",
-          "thursday",
-          "friday",
-          "saturday",
-        ],
+        dow: ["monday", "thursday"],
+      },
+      {
+        time: "5pm-11pm",
+        specials: ["It's a mystery!"],
+        dow: ["thursday", "friday", "saturday"],
       },
     ],
   },
@@ -481,15 +735,50 @@ export default [
     instagram:
       "https://www.instagram.com/explore/locations/16432931/johnny-bruscos-new-york-style-pizza-delivery-available-curbside-pickup-available/",
     googleMap: "https://goo.gl/maps/RLtKrCJ93vnduErD6",
+    openHours: {
+      monday: {
+        open: 1100,
+        close: 2100,
+      },
+      tuesday: {
+        open: 1100,
+        close: 2100,
+      },
+      wednesday: {
+        open: 1100,
+        close: 2100,
+      },
+      thursday: {
+        open: 1100,
+        close: 2100,
+      },
+      friday: {
+        open: 1100,
+        close: 2130,
+      },
+      saturday: {
+        open: 1100,
+        close: 2130,
+      },
+      sunday: {
+        open: 1100,
+        close: 2000,
+      },
+    },
     specials: {
       monday: [
         "Buy any Large Specialty Pizza and get a FREE Kids Spaghetti with Marinara Sauce. (Dine in only)",
       ],
       tuesday: ["$1 cheese slice (after 4pm)"],
-      wednesday: ["$.75 Wings (Dine in only)", "$4 glasses of wine"],
-      thursday: ["Sandwich chip/fries and drink $7.99"],
+      wednesday: [
+        "$.75 Wings (Dine in only, order in 8's)",
+        "$4 glasses of wine",
+      ],
+      thursday: [
+        "Sandwich chip/fries and drink $7.99 (Dine-in, Carry Out, or Delivery)",
+      ],
       friday: [],
-      saturday: ["$9.99 16in Regular 1-Topping Pizza (11-5pm Dine in only)"],
+      saturday: ['$9.99 16" Regular 1-Topping Pizza (11-5pm Dine in only)'],
       sunday: [],
     },
     happyHours: [
@@ -524,6 +813,36 @@ export default [
     facebook: "https://www.facebook.com/bikerackbrewing/",
     instagram: "https://www.instagram.com/bikerackbrewingco",
     googleMap: "https://goo.gl/maps/pM99faooe26fe6wp7",
+    openHours: {
+      monday: {
+        open: 1500,
+        close: 2200,
+      },
+      tuesday: {
+        open: 1500,
+        close: 2200,
+      },
+      wednesday: {
+        open: 1500,
+        close: 2200,
+      },
+      thursday: {
+        open: 1500,
+        close: 2200,
+      },
+      friday: {
+        open: 1200,
+        close: 2300,
+      },
+      saturday: {
+        open: 1200,
+        close: 2300,
+      },
+      sunday: {
+        open: 1200,
+        close: 2300,
+      },
+    },
     specials: {
       monday: ["$10 Growler Refills"],
       tuesday: ["$10 Growler Refills"],
@@ -537,7 +856,7 @@ export default [
       {
         time: "5pm-7pm",
         specials: ["$3 Golden, Amber and Stout pints"],
-        dow: ["monday", "tuesday", "thursday"],
+        dow: ["monday", "tuesday"],
       },
     ],
   },
@@ -549,8 +868,41 @@ export default [
     facebook: "https://www.facebook.com/bigwhiskeysbentonville/",
     instagram: "https://instagram.com/big.whiskeys",
     googleMap: "https://goo.gl/maps/s3dxyaPJZv2BL4tb8",
+    openHours: {
+      monday: {
+        open: 1100,
+        close: 2400,
+      },
+      tuesday: {
+        open: 1100,
+        close: 2400,
+      },
+      wednesday: {
+        open: 1100,
+        close: 2400,
+      },
+      thursday: {
+        open: 1100,
+        close: 2400,
+      },
+      friday: {
+        open: 1100,
+        close: 2500,
+      },
+      saturday: {
+        open: 1100,
+        close: 2500,
+      },
+      sunday: {
+        open: 1100,
+        close: 2400,
+      },
+    },
     specials: {
-      monday: ["After 6pm: $12 Domestic Buckets"],
+      monday: [
+        "$10 All-American Burger, Fries, and a Beer",
+        "After 6pm: $12 Domestic Buckets",
+      ],
       tuesday: [
         "After 6pm: $5 Stir Crazy",
         "Free Kids Meal with the Purchase of an Adult Entree",
@@ -559,12 +911,16 @@ export default [
       thursday: ["After 6pm: $5 Martini's"],
       friday: ["After 6pm: $6 Old Fashioned"],
       saturday: ["$2 off Flights"],
-      sunday: ["$2.50 Domestics", "$3.50 Craft/Import Drafts"],
+      sunday: [
+        "$2.50 Domestics",
+        "$3.50 Craft/Import Drafts",
+        "$.75 Bone-In Wings (in batches of 6)",
+      ],
     },
     happyHours: [
       {
         time: "4-6pm",
-        specials: ["$2 Domestic Pints", "$3 Craft Pints", "$5 Appetizers"],
+        specials: ["$2 Domestic Pints", "$3 Craft Pints", "$5 Select Apps"],
         dow: ["monday", "tuesday", "wednesday", "thursday", "friday"],
       },
     ],
@@ -578,6 +934,36 @@ export default [
       "https://www.facebook.com/Bentonville-Beef-O-Bradys-141251309228133/",
     instagram: "https://www.instagram.com/beefobradys1985",
     googleMap: "https://goo.gl/maps/jYqANLZYDgKW2uM38",
+    openHours: {
+      monday: {
+        open: 1030,
+        close: 2300,
+      },
+      tuesday: {
+        open: 1030,
+        close: 2300,
+      },
+      wednesday: {
+        open: 1030,
+        close: 2300,
+      },
+      thursday: {
+        open: 1030,
+        close: 2300,
+      },
+      friday: {
+        open: 1100,
+        close: 2400,
+      },
+      saturday: {
+        open: 1100,
+        close: 2400,
+      },
+      sunday: {
+        open: 1100,
+        close: 2400,
+      },
+    },
     specials: {
       monday: ["$5.99 Build Your Own Burger + Fries"],
       tuesday: [
@@ -633,6 +1019,36 @@ export default [
     facebook: "https://www.facebook.com/TuskandTrotter/",
     instagram: "https://www.instagram.com/tuskandtrotter",
     googleMap: "https://goo.gl/maps/BkJo5AK7zJWRfJCr9",
+    openHours: {
+      monday: {
+        open: null,
+        close: null,
+      },
+      tuesday: {
+        open: null,
+        close: null,
+      },
+      wednesday: {
+        open: 1100,
+        close: 2100,
+      },
+      thursday: {
+        open: 1100,
+        close: 2100,
+      },
+      friday: {
+        open: 1100,
+        close: 2100,
+      },
+      saturday: {
+        open: 1000,
+        close: 2100,
+      },
+      sunday: {
+        open: 1000,
+        close: 2100,
+      },
+    },
     specials: {
       monday: [],
       tuesday: [],
@@ -650,7 +1066,7 @@ export default [
           "$3 Basket of Pork Rinds",
           "$3 Basket of Pommes Frites",
         ],
-        dow: ["wednesday", "thursday", "friday"],
+        dow: [],
       },
     ],
   },
@@ -658,22 +1074,52 @@ export default [
     id: "firstseatbentonville",
     name: "The First Seat Pub & Grill",
     location: "Bentonville",
-    website: "",
+    website: "https://www.thefirstseatpub.com/",
     facebook: "https://www.facebook.com/thefirstseat/",
     instagram: "https://www.instagram.com/thefirstseat/",
     googleMap: "https://goo.gl/maps/1Uh2YfYQ2TxkwoBh7",
+    openHours: {
+      monday: {
+        open: 1100,
+        close: 2300,
+      },
+      tuesday: {
+        open: 1100,
+        close: 2300,
+      },
+      wednesday: {
+        open: 1100,
+        close: 2300,
+      },
+      thursday: {
+        open: 1100,
+        close: 2500,
+      },
+      friday: {
+        open: 1100,
+        close: 2500,
+      },
+      saturday: {
+        open: 800,
+        close: 2500,
+      },
+      sunday: {
+        open: 930,
+        close: 2200,
+      },
+    },
     specials: {
       monday: [],
       tuesday: [],
       wednesday: [],
       thursday: [],
       friday: [],
-      saturday: [],
-      sunday: [],
+      saturday: ["Saturday Breakfast (8-11am)"],
+      sunday: ["Sunday Breakfast & Brunch (9:30am-2pm)"],
     },
     happyHours: [
       {
-        time: "4-7pm",
+        time: "?4-7pm?",
         specials: [
           "$.50 off Draft Beer",
           "$2.50 Domestic Beers",
@@ -693,6 +1139,36 @@ export default [
     instagram:
       "https://www.instagram.com/explore/locations/924679534/pedalers-pub/",
     googleMap: "https://goo.gl/maps/riWjhuPZ8SmaxdEe9",
+    openHours: {
+      monday: {
+        open: null,
+        close: null,
+      },
+      tuesday: {
+        open: 1100,
+        close: 2300,
+      },
+      wednesday: {
+        open: 1100,
+        close: 2300,
+      },
+      thursday: {
+        open: 1100,
+        close: 2300,
+      },
+      friday: {
+        open: 1100,
+        close: 2300,
+      },
+      saturday: {
+        open: 1100,
+        close: 2300,
+      },
+      sunday: {
+        open: 1100,
+        close: 2300,
+      },
+    },
     specials: {
       monday: [],
       tuesday: [],
@@ -704,12 +1180,12 @@ export default [
     },
     happyHours: [
       {
-        time: "4-6pm",
+        time: "?4-6pm?",
         specials: ["$3 Wells", "$3 Rotating Draft Beers", "$5 Draft Wine"],
         dow: ["monday", "tuesday", "wednesday", "thursday", "friday"],
       },
       {
-        time: "11-4pm",
+        time: "?11-4pm?",
         specials: ["$5 Bloody Marys"],
         dow: ["saturday", "sunday"],
       },
@@ -723,6 +1199,36 @@ export default [
     facebook: "https://www.facebook.com/thehollerbentonville/",
     instagram: "https://www.instagram.com/thehollerbentonville/",
     googleMap: "https://goo.gl/maps/mrMahCCrUnvJWedt6",
+    openHours: {
+      monday: {
+        open: null,
+        close: null,
+      },
+      tuesday: {
+        open: null,
+        close: null,
+      },
+      wednesday: {
+        open: null,
+        close: null,
+      },
+      thursday: {
+        open: 1100,
+        close: 2000,
+      },
+      friday: {
+        open: 1100,
+        close: 2100,
+      },
+      saturday: {
+        open: 1100,
+        close: 2100,
+      },
+      sunday: {
+        open: 1100,
+        close: 2000,
+      },
+    },
     specials: {
       monday: [],
       tuesday: [],
@@ -742,14 +1248,7 @@ export default [
           "$6 Frozen Rotational's",
           "Old Grandad Shot",
         ],
-        dow: [
-          "monday",
-          "tuesday",
-          "wednesday",
-          "thursday",
-          "friday",
-          "saturday",
-        ],
+        dow: [],
       },
     ],
   },
@@ -757,10 +1256,40 @@ export default [
     id: "scotchandsodabentonville",
     name: "Scotch & Soda",
     location: "Bentonville",
-    website: "http://www.thescotchandsoda.com/bentonville-menus/",
+    website: "http://www.thescotchandsoda.com/",
     facebook: "https://www.facebook.com/thescotchandsodabentonville/",
     instagram: "https://www.instagram.com/thescotchandsodabv/",
     googleMap: "https://goo.gl/maps/4Bdn3RDLx1mGS26r5",
+    openHours: {
+      monday: {
+        open: 1600,
+        close: 2200,
+      },
+      tuesday: {
+        open: 1600,
+        close: 2200,
+      },
+      wednesday: {
+        open: 1600,
+        close: 2200,
+      },
+      thursday: {
+        open: 1600,
+        close: 2200,
+      },
+      friday: {
+        open: 1600,
+        close: 2400,
+      },
+      saturday: {
+        open: 1600,
+        close: 2400,
+      },
+      sunday: {
+        open: null,
+        close: null,
+      },
+    },
     specials: {
       monday: [],
       tuesday: [],
@@ -772,7 +1301,7 @@ export default [
     },
     happyHours: [
       {
-        time: "4-6pm",
+        time: "?4-6pm?",
         specials: [
           "$1 off All Classics",
           "$1 off All Draft Beers",
@@ -790,6 +1319,36 @@ export default [
     facebook: "https://www.facebook.com/bvbarandgrill/",
     instagram: "https://www.instagram.com/bv_bar_and_grill/",
     googleMap: "https://goo.gl/maps/sLjDfM7MonfdgDyc6",
+    openHours: {
+      monday: {
+        open: 1100,
+        close: 2100,
+      },
+      tuesday: {
+        open: 1100,
+        close: 2100,
+      },
+      wednesday: {
+        open: 1100,
+        close: 2100,
+      },
+      thursday: {
+        open: 1100,
+        close: 2100,
+      },
+      friday: {
+        open: 1100,
+        close: 2100,
+      },
+      saturday: {
+        open: 1100,
+        close: 2100,
+      },
+      sunday: {
+        open: 1100,
+        close: 2100,
+      },
+    },
     specials: {
       monday: ["$20 for 2 Meals"],
       tuesday: ["$20 Prime Rib Special (3pm Until Sold Out)"],
@@ -803,6 +1362,19 @@ export default [
       {
         time: "All Day!",
         specials: ["$3 Wines", "$3 Wells", "$3 Brews"],
+        dow: [
+          "saturday",
+          "sunday",
+          "monday",
+          "tuesday",
+          "wednesday",
+          "thursday",
+          "friday",
+        ],
+      },
+      {
+        time: "2-5pm",
+        specials: ["Early Dining Specials"],
         dow: [
           "saturday",
           "sunday",
@@ -828,6 +1400,36 @@ export default [
     instagram:
       "https://www.instagram.com/explore/locations/1016157052/highlands-golf-course-bella-vista/",
     googleMap: "https://goo.gl/maps/AhHER5853EoZ9asJ9",
+    openHours: {
+      monday: {
+        open: 1100,
+        close: 2000,
+      },
+      tuesday: {
+        open: 1100,
+        close: 2000,
+      },
+      wednesday: {
+        open: 1100,
+        close: 2000,
+      },
+      thursday: {
+        open: 1100,
+        close: 2000,
+      },
+      friday: {
+        open: 1100,
+        close: 2000,
+      },
+      saturday: {
+        open: 1100,
+        close: 2000,
+      },
+      sunday: {
+        open: 1100,
+        close: 2000,
+      },
+    },
     specials: {
       monday: [],
       tuesday: [],
@@ -839,7 +1441,7 @@ export default [
     },
     happyHours: [
       {
-        time: "11am--8pm",
+        time: "11am-8pm",
         specials: [
           "$2 House Spirits",
           "$2 16oz Domestic Drafts",
@@ -865,6 +1467,36 @@ export default [
     facebook: "",
     instagram: "",
     googleMap: "",
+    openHours: {
+      monday: {
+        open: null,
+        close: null,
+      },
+      tuesday: {
+        open: null,
+        close: null,
+      },
+      wednesday: {
+        open: null,
+        close: null,
+      },
+      thursday: {
+        open: null,
+        close: null,
+      },
+      friday: {
+        open: null,
+        close: null,
+      },
+      saturday: {
+        open: null,
+        close: null,
+      },
+      sunday: {
+        open: null,
+        close: null,
+      },
+    },
     specials: {
       monday: [],
       tuesday: [],
