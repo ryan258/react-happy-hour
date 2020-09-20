@@ -348,7 +348,6 @@ export default [
         time: "3:00-3:20 | 4:20-4:40 | 5:40-6:00",
         specials: ["$1 Select JJ's Brewing Co. Drafts"],
         dow: [
-          "sunday",
           "monday",
           "tuesday",
           "wednesday",
@@ -996,19 +995,6 @@ export default [
         ],
         dow: ["monday", "tuesday", "wednesday", "thursday", "friday"],
       },
-      {
-        time: "All Day, Every Day!",
-        specials: ["$1.50 16oz Beef's 35 Lager", "$2.50 22oz Beef's 35 Lager"],
-        dow: [
-          "saturday",
-          "sunday",
-          "monday",
-          "tuesday",
-          "wednesday",
-          "thursday",
-          "friday",
-        ],
-      },
     ],
   },
   {
@@ -1360,7 +1346,7 @@ export default [
     },
     happyHours: [
       {
-        time: "All Day!",
+        time: "3-6pm",
         specials: ["$3 Wines", "$3 Wells", "$3 Brews"],
         dow: [
           "saturday",
