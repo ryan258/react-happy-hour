@@ -1350,13 +1350,29 @@ export default [
         specials: ['$3 Wines', '$3 Wells', '$3 Brews'],
         dow: [
           'saturday',
-          'sunday',
           'monday',
           'tuesday',
           'wednesday',
           'thursday',
           'friday',
         ],
+      },
+      {
+        time: 'Game Day Specials',
+        specials: [
+          '$9 60oz Domestic Pitchers',
+          '$8 Loaded Nachos',
+          '$7 Jumbo Wings',
+          '$7 Chicken Tenders',
+          '$7 Pulled Pork Sliders',
+          '$6 Chips & Queso',
+        ],
+        dow: ['saturday', 'sunday'],
+      },
+      {
+        time: 'All Day Happy Hour',
+        specials: ['$3 Wines', '$3 Wells', '$3 Brews'],
+        dow: ['sunday'],
       },
       {
         time: '2-5pm',
