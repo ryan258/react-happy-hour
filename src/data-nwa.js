@@ -38,12 +38,12 @@ export default [
       }
     },
     specials: {
-      monday: ["$2 off Mezcal Cocktails", "1/2 Price Glasses of Wine"],
-      tuesday: ["$5 Tacos", "$2.99 House Margarita"],
-      wednesday: ["1/2 Price Burgers", "25% off Veteran Meals", "$3 Domestic Shorts"],
-      thursday: ["$2 off Craft Drafts", "$5.49 Honey Jack Mules"],
-      friday: ["$2.99 House Margaritas", "$5 Jack-n-Cokes", "$3 Fireball Shots"],
-      saturday: ["$10 Margarita Pitchers", "$3 Picoso Mimosas", "$5 Bloody Marys"],
+      monday: ["$1 off Mezcal Cocktails", "1/2 Price Glasses of Wine"],
+      tuesday: ["$6 Taco Plates", "$2.99 House Margarita"],
+      wednesday: ["1/2 Price Burgers", "$3 16oz Domestics", "25% off Veteran Meals"],
+      thursday: ["$1 off Craft Drafts", "$5.49 Honey Jack Mules"],
+      friday: ["$1.99 House Margaritas", "$5 Jack-n-Cokes"],
+      saturday: ["$10 Margarita Pitchers", "$3 Picoso Mimosas", "$5 Bloody Mary's"],
       sunday: ["$10 Margarita Pitchers", "$3 Picoso Mimosas", "$5 Bloody Marys"]
     },
     happyHours: [
@@ -54,7 +54,7 @@ export default [
       },
       {
         time: "All Day, Every Day!",
-        specials: ["$10 Domestic Buckets"],
+        specials: ["$10 Domestic Buckets", "$2 Smirnoff Ice", "$4.49 White Claw"],
         dow: ["saturday", "sunday", "monday", "tuesday", "wednesday", "thursday", "friday"]
       }
     ]
