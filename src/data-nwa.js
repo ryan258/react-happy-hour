@@ -238,18 +238,23 @@ export default [
     },
     specials: {
       monday: [],
-      tuesday: ["$2 Domestic Bottles"],
-      wednesday: [],
+      tuesday: [],
+      wednesday: ['$9.99 13" 1-Topping Pizza (dine in / after 4pm)', '$10.99 13" 1-Topping Pizza (to go or delivery / after 4pm)', "Add Breadstix for $2.99"],
       thursday: [],
-      friday: ["$3 House Wines"],
-      saturday: ["$2 Domestic Drafts"],
-      sunday: ["$2 Mimosas", "$2 Bloody Marys", "$2 Screwdrivers"]
+      friday: [],
+      saturday: [],
+      sunday: ['Sunday Family Special - $24.99 - 13" Specialty Pizza, 13" 1-Topping Pizza, & Breadstix', '$24.99 16" 1-Topping Pizza & Wings during NFL games', "$12 Domestic Buckets (6 Bottles) during NFL games", "$2 Domestic Drafts during NFL games"]
     },
     happyHours: [
       {
+        time: "All Day!",
+        specials: ["$1 off Drafts", "$1 off Wells", "$1 off Wines"],
+        dow: ["thursday"]
+      },
+      {
         time: "3-7pm",
         specials: ["$1 off Drafts", "$1 off Wells", "$1 off Wines"],
-        dow: ["monday", "tuesday", "wednesday", "thursday", "friday"]
+        dow: ["monday", "tuesday", "wednesday", "friday"]
       },
       {
         time: "5-6pm: Happiest Hour!",
@@ -1362,12 +1367,17 @@ export default [
       thursday: [],
       friday: [],
       saturday: [],
-      sunday: []
+      sunday: ['$5 Bloody Marys', '$3 Mimosas']
     },
     happyHours: [
       {
-        time: "2-5pm",
-        specials: ["$3 Well Drinks", "$4.50 Tall Domestics"],
+        time: "3-6pm",
+        specials: ["$3 Single House Pours (Bacardi, New Amsterdam, Svedka, Jack Daniel’s, Fireball, and Jose Cuervo Gold)", "$4 22oz Domestics"],
+        dow: ["monday", "tuesday", "wednesday", "thursday", "friday"]
+      }
+      {
+        time: "9-11pm",
+        specials: ["$3 Single House Pours (Bacardi, New Amsterdam, Svedka, Jack Daniel’s, Fireball, and Jose Cuervo Gold)", "$4 22oz Domestics"],
         dow: ["monday", "tuesday", "wednesday", "thursday", "friday"]
       }
     ]
