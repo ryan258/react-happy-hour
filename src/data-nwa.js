@@ -1367,14 +1367,14 @@ export default [
       thursday: [],
       friday: [],
       saturday: [],
-      sunday: ['$5 Bloody Marys', '$3 Mimosas']
+      sunday: ["$5 Bloody Marys", "$3 Mimosas"]
     },
     happyHours: [
       {
         time: "3-6pm",
         specials: ["$3 Single House Pours (Bacardi, New Amsterdam, Svedka, Jack Daniel’s, Fireball, and Jose Cuervo Gold)", "$4 22oz Domestics"],
         dow: ["monday", "tuesday", "wednesday", "thursday", "friday"]
-      }
+      },
       {
         time: "9-11pm",
         specials: ["$3 Single House Pours (Bacardi, New Amsterdam, Svedka, Jack Daniel’s, Fireball, and Jose Cuervo Gold)", "$4 22oz Domestics"],
