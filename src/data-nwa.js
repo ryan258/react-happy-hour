@@ -70,35 +70,35 @@ export default [
     openHours: {
       monday: {
         open: 1100,
-        close: 2400
+        close: 2300
       },
       tuesday: {
         open: 1100,
-        close: 2400
+        close: 2300
       },
       wednesday: {
         open: 1100,
-        close: 2400
+        close: 2300
       },
       thursday: {
         open: 1100,
-        close: 2500
+        close: 2300
       },
       friday: {
         open: 1100,
-        close: 2600
+        close: 2300
       },
       saturday: {
         open: 1100,
-        close: 2600
+        close: 2300
       },
       sunday: {
         open: 1100,
-        close: 2400
+        close: 2300
       }
     },
     specials: {
-      monday: ["$3 22oz Domestic Brews", "$5 Mules (Mexican, Moscow, & Kentucky)", "$5 Cheeseburgers & Fries", "$2 Domestic Bottles"],
+      monday: ["$5 Mules (Mexican, Moscow, & Kentucky)", "$5 Cheeseburgers & Fries", "$2 Domestic Bottles"],
       tuesday: ["$5 Peaks Margarita", "$6 Tacos (Buffalo Chicken, Blackened Haddock, & Smoked Brisket)", "$2 Domestic Bottles"],
       wednesday: ["$5 Tito's Tea", "$7 Texas Philly & Fries", "$2 Domestic Bottles"],
       thursday: ["$5 Irish Trash Can", "$8 Chicken Sandwiches (Chicken Ranch, Southern Fried, & Nashville Hot Chicken)", "$2 Domestic Bottles"],
@@ -174,7 +174,7 @@ export default [
     happyHours: [
       {
         time: "3-6pm",
-        specials: ["$2.50 Domestics", "$3 House Wines", "$5 Tiki Drinks", "$1 off Local Beers"],
+        specials: ["$2 Domestics", "$3 House Wines", "$4.99 Specialty Cocktails"],
         dow: ["monday", "tuesday", "wednesday", "thursday", "friday"]
       }
     ]
@@ -267,14 +267,14 @@ export default [
     id: "jjsrogers",
     name: "JJ's Grill",
     location: "Rogers",
-    website: "http://jjsgrill.com/locations/jjs-rogers/",
+    website: "http://jjsgrill.com/jjsrogers/",
     facebook: "https://www.facebook.com/JJsGrillRogers/",
     instagram: "https://www.instagram.com/jjsgrill/",
     googleMap: "https://goo.gl/maps/hWm41PP4QhZ3bGWZA",
     openHours: {
       monday: {
         open: 1100,
-        close: 2400
+        close: 2300
       },
       tuesday: {
         open: 1100,
@@ -294,7 +294,7 @@ export default [
       },
       saturday: {
         open: 1100,
-        close: 2400
+        close: 2300
       },
       sunday: {
         open: null,
@@ -394,31 +394,31 @@ export default [
     openHours: {
       monday: {
         open: 1500,
-        close: 2500
+        close: 2300
       },
       tuesday: {
         open: 1500,
-        close: 2500
+        close: 2300
       },
       wednesday: {
         open: 1500,
-        close: 2500
+        close: 2300
       },
       thursday: {
         open: 1500,
-        close: 2500
+        close: 2300
       },
       friday: {
         open: 1100,
-        close: 2500
+        close: 2300
       },
       saturday: {
         open: 1100,
-        close: 2500
+        close: 2300
       },
       sunday: {
         open: 1100,
-        close: 2500
+        close: 2300
       }
     },
     specials: {
@@ -428,7 +428,7 @@ export default [
       thursday: ["$1 Off Burgers", "$10 Domestic Buckets", "$15 Mexican Buckets"],
       friday: ["$1 Off All Craft Beers", "$14 Margarita Pitchers"],
       saturday: ["$1.50 Ribs", "$4 Boys (Jim, Jack, Johnny & Jose)", "$10 Domestic Buckets", "$14 Margarita Pitchers"],
-      sunday: ["$3 Bloody Mary", "$3 Mimosa", "$2 Miller Lite Pints", "$6.99 Sloppy Joe w/ Fries"]
+      sunday: ["$3 Bloody Mary", "$3 Mimosa", "$2 Miller Lite Pints"]
     },
     happyHours: [
       {
@@ -497,71 +497,7 @@ export default [
     },
     happyHours: []
   },
-  {
-    id: "foghornsrogers",
-    name: "Foghorn's Wings",
-    location: "Rogers",
-    website: "https://www.foghornswings.com/",
-    facebook: "https://www.facebook.com/foghorns4/",
-    instagram: "https://www.instagram.com/explore/locations/586357318200574/foghorns-rogers/",
-    googleMap: "https://goo.gl/maps/TUiCqbTaAQNYtfKw8",
-    openHours: {
-      monday: {
-        open: 1100,
-        close: 2300
-      },
-      tuesday: {
-        open: 1100,
-        close: 2200
-      },
-      wednesday: {
-        open: 1100,
-        close: 2300
-      },
-      thursday: {
-        open: 1100,
-        close: 2200
-      },
-      friday: {
-        open: 1100,
-        close: 2300
-      },
-      saturday: {
-        open: 1100,
-        close: 2300
-      },
-      sunday: {
-        open: 1100,
-        close: 2200
-      }
-    },
-    specials: {
-      monday: ["??$2 Off Any Burger w/ Side"],
-      tuesday: ["??$.79 Wings (Traditional or Boneless)"],
-      wednesday: ["??Kids Eat Free (w/ Adult Meal)", "$1 Off All Bottled Beer"],
-      thursday: ["??$.79 Boneless Wings"],
-      friday: ["??$3.50 Fireball Shots"],
-      saturday: ["??$3 Well Bloody Marys and Mimosas", "??$4 Flavored Vodka Bloody Marys", "??$5 Premium Vodka Bloody Marys"],
-      sunday: ["??$3 Well Bloody Marys and Mimosas", "??$4 Flavored Vodka Bloody Marys", "??$5 Premium Vodka Bloody Marys"]
-    },
-    happyHours: [
-      {
-        time: "??3-6pm",
-        specials: ["$2.50 Domestic Drafts", "$1 off Wine", "$1 off Well Liquor", "$1 off Appetizers", "$.50 off All Bottled Beer"],
-        dow: ["monday", "tuesday", "wednesday", "thursday", "friday"]
-      },
-      {
-        time: "??8-9pm",
-        specials: ["$2.50 Domestic Drafts", "$2.50 Wells"],
-        dow: ["monday", "tuesday", "wednesday", "thursday", "friday"]
-      },
-      {
-        time: "??11am-3pm",
-        specials: ["$2.25 Domestic bottles", "$2.50 Wine", "$2.50 Wells", "1/2 price Appetizers"],
-        dow: ["saturday"]
-      }
-    ]
-  },
+
   {
     id: "pressroombentonville",
     name: "Pressroom",
@@ -951,8 +887,8 @@ export default [
     },
     happyHours: [
       {
-        time: "?4-7pm?",
-        specials: ["$.50 off Draft Beer", "$2.50 Domestic Beers", "$4 House Wine", "$4 Well Drinks"],
+        time: "4-7pm",
+        specials: ["$.50 off Domestic Bottles", "$1 off Drafts"],
         dow: ["monday", "tuesday", "wednesday", "thursday", "friday"]
       }
     ]
@@ -1083,31 +1019,31 @@ export default [
     openHours: {
       monday: {
         open: 1600,
-        close: 2200
+        close: 2300
       },
       tuesday: {
         open: 1600,
-        close: 2200
+        close: 2300
       },
       wednesday: {
         open: 1600,
-        close: 2200
+        close: 2300
       },
       thursday: {
         open: 1600,
-        close: 2200
+        close: 2300
       },
       friday: {
         open: 1600,
-        close: 2400
+        close: 2300
       },
       saturday: {
         open: 1600,
-        close: 2400
+        close: 2300
       },
       sunday: {
-        open: null,
-        close: null
+        open: 1600,
+        close: 2300
       }
     },
     specials: {
@@ -1166,9 +1102,9 @@ export default [
       }
     },
     specials: {
-      monday: ["$20 for 2 Meals"],
-      tuesday: ["$20 Prime Rib Special (3pm Until Sold Out)"],
-      wednesday: ["Chicken Wings + POA Discount (After 4pm?)"],
+      monday: ["$20 for 2 Meals", "20% Discount w/ POA Activity Card", "10% Discount w/ POA Member Card"],
+      tuesday: ["$20 Prime Rib Special (4pm Until Sold Out)"],
+      wednesday: [],
       thursday: ["$12 Chicken Fried Steak"],
       friday: [],
       saturday: [],
@@ -1178,7 +1114,7 @@ export default [
       {
         time: "3-6pm",
         specials: ["$3 Wines", "$3 Wells", "$3 Brews"],
-        dow: ["saturday", "monday", "tuesday", "wednesday", "thursday", "friday"]
+        dow: ["saturday", "monday", "tuesday", "wednesday", "friday"]
       },
       {
         time: "Game Day Specials",
@@ -1188,7 +1124,7 @@ export default [
       {
         time: "All Day Happy Hour",
         specials: ["$3 Wines", "$3 Wells", "$3 Brews"],
-        dow: ["sunday"]
+        dow: ["thursday", "sunday"]
       },
       {
         time: "2-5pm",
