@@ -940,74 +940,9 @@ export default [
       saturday: [],
       sunday: []
     },
-    happyHours: [
-      {
-        time: "?4-6pm?",
-        specials: ["$3 Wells", "$3 Rotating Draft Beers", "$5 Draft Wine"],
-        dow: ["monday", "tuesday", "wednesday", "thursday", "friday"]
-      },
-      {
-        time: "?11-4pm?",
-        specials: ["$5 Bloody Marys"],
-        dow: ["saturday", "sunday"]
-      }
-    ]
+    happyHours: []
   },
-  {
-    id: "thehollerbentonville",
-    name: "The Holler",
-    location: "Bentonville",
-    website: "https://www.alocalhangout.com/",
-    facebook: "https://www.facebook.com/thehollerbentonville/",
-    instagram: "https://www.instagram.com/thehollerbentonville/",
-    googleMap: "https://goo.gl/maps/mrMahCCrUnvJWedt6",
-    openHours: {
-      monday: {
-        open: null,
-        close: null
-      },
-      tuesday: {
-        open: null,
-        close: null
-      },
-      wednesday: {
-        open: null,
-        close: null
-      },
-      thursday: {
-        open: 1100,
-        close: 2000
-      },
-      friday: {
-        open: 1100,
-        close: 2100
-      },
-      saturday: {
-        open: 1100,
-        close: 2100
-      },
-      sunday: {
-        open: 1100,
-        close: 2000
-      }
-    },
-    specials: {
-      monday: [],
-      tuesday: [],
-      wednesday: [],
-      thursday: [],
-      friday: [],
-      saturday: [],
-      sunday: []
-    },
-    happyHours: [
-      {
-        time: "3-6pm",
-        specials: ["$6 House White Wine", "$6 House Red Wine", "$2 PBR Tall Boy", "$6 Frozen Rotational's", "Old Grandad Shot"],
-        dow: []
-      }
-    ]
-  },
+
   {
     id: "scotchandsodabentonville",
     name: "Scotch & Soda",
