@@ -99,7 +99,7 @@ export default [
     },
     specials: {
       monday: ['$3.99 Man Cans', '$2 Domestic Bottles', '$10.99 22oz Twin Peaks Brew & 6 Boneless Wings w/ Fries'],
-      tuesday: ['$3.99 House Rites', '$2 Domestic Bottles', '$10.99 22oz Mexican Beer & Buffalo Chicken Tacos'],
+      tuesday: ['$3.99 House Ritas', '$2 Domestic Bottles', '$10.99 22oz Mexican Beer & Buffalo Chicken Tacos'],
       wednesday: ['$3.99 All Wines by the Glass', '$2 Domestic Bottles', '$10.99 22oz Domestic Beers & Cheeseburgers'],
       thursday: ['$3.99 All Seltzers', '$2 Domestic Bottles', '$10.99 22oz Samuel Adams Seasonal & Chicken Tenders'],
       friday: ['Bourbon & Brews (5-7pm)', '$3.99 Jim Beam Old Fashioned'],
