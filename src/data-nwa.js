@@ -302,7 +302,7 @@ export default [
       thursday: ['$17.99 13" 1-Topping Pizza w/ Bread Stix', '$7.99 Sandwich of the Day - Hawaiian Turkey'],
       friday: ['Specials on House Wines', '$17.99 13" 1-Topping Pizza w/ Bread Stix', '$7.99 Sandwich of the Day - Italian Sub'],
       saturday: ['$2 Short Domestics', '$6.50 Domestic Pitchers'],
-      sunday: ['$12 Domestic Bottles', '$2 Mimosas', '$2 Bloody Marys', 'Family Special - $32.99 - 13" 1-Topping Pizza, 13" Specialty Pizza, and Bread Stix']
+      sunday: ['$12 Bucket of Domestic Bottles', '$2 Mimosas', '$2 Bloody Marys', 'Family Special - $32.99 - 13" 1-Topping Pizza, 13" Specialty Pizza, and Bread Stix']
     },
     happyHours: [
       {
