@@ -60,6 +60,60 @@ export default [
     ]
   },
   {
+    name: 'Big Orange Burger',
+    location: 'Rogers',
+    website: 'https://www.bigorangeburger.com/',
+    facebook: 'https://www.facebook.com/BigOrangeRogers/',
+    instagram: 'https://www.instagram.com/bigo_rogers/',
+    googleMap: 'https://g.page/BigOrangeRogers?share',
+    openHours: {
+      monday: {
+        open: 1100,
+        close: 2000
+      },
+      tuesday: {
+        open: 1100,
+        close: 2000
+      },
+      wednesday: {
+        open: 1100,
+        close: 2000
+      },
+      thursday: {
+        open: 1100,
+        close: 2100
+      },
+      friday: {
+        open: 1100,
+        close: 2100
+      },
+      saturday: {
+        open: 1100,
+        close: 2100
+      },
+      sunday: {
+        open: 1100,
+        close: 2000
+      }
+    },
+    specials: {
+      monday: [],
+      tuesday: [],
+      wednesday: [],
+      thursday: [],
+      friday: [],
+      saturday: [],
+      sunday: []
+    },
+    happyHours: [
+      {
+        time: '2-6pm',
+        specials: ['$5 Classic Cocktails', '$5 Starters (includes Hummus & Tzatziki, Spicy Pimento Cheese, House-Made Chip Buckets, Big Orange Cheese Dip, and Fried Pickle Spears)⁣', "$2 Boots of Lost Forty Brewing's 2nd Rodeo Ale"],
+        dow: ['monday', 'tuesday', 'wednesday', 'thursday', 'friday']
+      }
+    ]
+  },
+  {
     id: 'twinpeaksrogers',
     name: 'Twin Peaks',
     location: 'Rogers',
@@ -70,31 +124,31 @@ export default [
     openHours: {
       monday: {
         open: 1100,
-        close: 2300
+        close: 2400
       },
       tuesday: {
         open: 1100,
-        close: 2300
+        close: 2400
       },
       wednesday: {
         open: 1100,
-        close: 2300
+        close: 2400
       },
       thursday: {
         open: 1100,
-        close: 2300
+        close: 2500
       },
       friday: {
         open: 1100,
-        close: 2300
+        close: 2600
       },
       saturday: {
         open: 1100,
-        close: 2300
+        close: 2600
       },
       sunday: {
         open: 1100,
-        close: 2300
+        close: 2400
       }
     },
     specials: {
@@ -170,7 +224,7 @@ export default [
     specials: {
       monday: [],
       tuesday: [],
-      wednesday: [],
+      wednesday: ['Bingo Night - (Starts @ 7:30pm)'],
       thursday: [],
       friday: [],
       saturday: [],
@@ -179,7 +233,7 @@ export default [
     happyHours: [
       {
         time: '3-6pm',
-        specials: ['$2 Domestics', '$3 House Wines', '$4.99 Specialty Cocktails'],
+        specials: ['$2.50 Domestics', '$3 House Wines', '$4.99 Tiki Drinks', '$1 off Local Beers'],
         dow: ['monday', 'tuesday', 'wednesday', 'thursday', 'friday']
       }
     ]
@@ -242,18 +296,18 @@ export default [
       }
     },
     specials: {
-      monday: [],
-      tuesday: [],
-      wednesday: ['$9.99 13" 1-Topping Pizza (dine in / after 4pm)', '$10.99 13" 1-Topping Pizza (to go or delivery / after 4pm)', 'Add Breadstix for $2.99'],
-      thursday: [],
-      friday: [],
-      saturday: [],
-      sunday: ['Sunday Family Special - $24.99 - 13" Specialty Pizza, 13" 1-Topping Pizza, & Breadstix', '$24.99 16" 1-Topping Pizza & Wings during NFL games', '$12 Domestic Buckets (6 Bottles) during NFL games', '$2 Domestic Drafts during NFL games']
+      monday: ['$17.99 13" 1-Topping Pizza w/ Bread Stix', '$7.99 Sandwich of the Day - Turkey Club'],
+      tuesday: ['$2 Domestic Bottles', '$17.99 13" 1-Topping Pizza w/ Bread Stix', '$7.99 Sandwich of the Day - Dagwood'],
+      wednesday: ['$9.99 13" 1-Topping Pizza (dine in / after 4pm)', '$10.99 13" 1-Topping Pizza (to go or delivery / after 4pm)', 'Add Breadstix for $2.99', '$17.99 13" 1-Topping Pizza w/ Bread Stix', '$7.99 Sandwich of the Day - Ham & Cheese'],
+      thursday: ['$17.99 13" 1-Topping Pizza w/ Bread Stix', '$7.99 Sandwich of the Day - Hawaiian Turkey'],
+      friday: ['Specials on House Wines', '$17.99 13" 1-Topping Pizza w/ Bread Stix', '$7.99 Sandwich of the Day - Italian Sub'],
+      saturday: ['$2 Short Domestics', '$6.50 Domestic Pitchers'],
+      sunday: ['$12 Domestic Bottles', '$2 Mimosas', '$2 Bloody Marys', 'Family Special - $32.99 - 13" 1-Topping Pizza, 13" Specialty Pizza, and Bread Stix']
     },
     happyHours: [
       {
-        time: 'All Day!',
-        specials: ['$1 off Drafts', '$1 off Wells', '$1 off Wines'],
+        time: 'All Day Happiest Hour!',
+        specials: ['$1 12oz Domestic Drafts', '$2 22oz Domestic Drafts'],
         dow: ['thursday']
       },
       {
@@ -264,7 +318,7 @@ export default [
       {
         time: '5-6pm: Happiest Hour!',
         specials: ['$1 12oz Domestic Drafts', '$2 22oz Domestic Drafts'],
-        dow: ['monday', 'tuesday', 'wednesday', 'thursday', 'friday']
+        dow: ['monday', 'tuesday', 'wednesday', 'friday']
       }
     ]
   },
@@ -279,27 +333,27 @@ export default [
     openHours: {
       monday: {
         open: 1100,
-        close: 2300
+        close: 2400
       },
       tuesday: {
         open: 1100,
-        close: 2200
+        close: 2400
       },
       wednesday: {
         open: 1100,
-        close: 2200
+        close: 2400
       },
       thursday: {
         open: 1100,
-        close: 2200
+        close: 2400
       },
       friday: {
         open: 1100,
-        close: 2200
+        close: 2400
       },
       saturday: {
         open: 1100,
-        close: 2300
+        close: 2400
       },
       sunday: {
         open: null,
@@ -398,38 +452,38 @@ export default [
     googleMap: 'https://g.page/boarsnestrogers?share',
     openHours: {
       monday: {
-        open: 1500,
-        close: 2300
+        open: 1100,
+        close: 2600
       },
       tuesday: {
-        open: 1500,
-        close: 2300
+        open: 1100,
+        close: 2600
       },
       wednesday: {
-        open: 1500,
-        close: 2300
+        open: 1100,
+        close: 2600
       },
       thursday: {
-        open: 1500,
-        close: 2300
+        open: 1100,
+        close: 2600
       },
       friday: {
         open: 1100,
-        close: 2300
+        close: 2600
       },
       saturday: {
         open: 1100,
-        close: 2300
+        close: 2600
       },
       sunday: {
         open: 1100,
-        close: 2300
+        close: 2600
       }
     },
     specials: {
       monday: ['$1.25 Wings', '$6 32oz Mug ($3 Domestic / $4 Craft Refills)'],
-      tuesday: ['All Day Happy Hour', '$5.99 Street Taco Basket'],
-      wednesday: ['$1.50 Ribs', '$2.25 Domestic Bottles'],
+      tuesday: ['$5.99 Street Taco Basket'],
+      wednesday: ['Karoke Night (8pm - Midnight)', '$1.50 Ribs', '$2.25 Domestic Bottles'],
       thursday: ['$1 Off Burgers', '$10 Domestic Buckets', '$15 Mexican Buckets'],
       friday: ['$1 Off All Craft Beers', '$14 Margarita Pitchers'],
       saturday: ['$1.50 Ribs', '$4 Boys (Jim, Jack, Johnny & Jose)', '$10 Domestic Buckets', '$14 Margarita Pitchers'],
@@ -439,7 +493,7 @@ export default [
       {
         time: '3-8pm',
         specials: ['$2.25 Domestic bottles', '$2.50 Wine', '$2.50 Wells', '1/2 price Appetizers (Nachos, Chips & Salsa, Fried Pickles, Cheese Fries)'],
-        dow: ['monday', 'tuesday', 'wednesday', 'thursday', 'friday']
+        dow: ['monday', 'wednesday', 'thursday', 'friday']
       },
       {
         time: 'All Day',
@@ -526,15 +580,15 @@ export default [
       },
       thursday: {
         open: 1100,
-        close: 2300
+        close: 2100
       },
       friday: {
         open: 1100,
-        close: 2300
+        close: 2200
       },
       saturday: {
         open: 900,
-        close: 2300
+        close: 2200
       },
       sunday: {
         open: 900,
@@ -554,12 +608,7 @@ export default [
       {
         time: '3pm-6pm',
         specials: ["It's a mystery!"],
-        dow: ['monday', 'thursday']
-      },
-      {
-        time: '5pm-11pm',
-        specials: ["It's a mystery!"],
-        dow: ['thursday', 'friday', 'saturday']
+        dow: ['monday', 'thursday', 'friday', 'saturday']
       }
     ]
   },
@@ -590,15 +639,15 @@ export default [
       },
       friday: {
         open: 1100,
-        close: 2130
+        close: 2200
       },
       saturday: {
         open: 1100,
-        close: 2130
+        close: 2200
       },
       sunday: {
         open: 1100,
-        close: 2000
+        close: 2030
       }
     },
     specials: {
@@ -658,7 +707,7 @@ export default [
       },
       sunday: {
         open: 1200,
-        close: 2300
+        close: 2200
       }
     },
     specials: {
@@ -717,17 +766,17 @@ export default [
       }
     },
     specials: {
-      monday: ['$10 All-American Burger, Fries, and a Beer', 'After 6pm: $12 Domestic Buckets'],
+      monday: ['After 6pm: $12 Domestic Buckets'],
       tuesday: ['After 6pm: $5 Stir Crazy', 'Free Kids Meal with the Purchase of an Adult Entree'],
       wednesday: ['After 6pm: $6 Fishbowl'],
       thursday: ["After 6pm: $5 Martini's"],
       friday: ['After 6pm: $6 Old Fashioned'],
-      saturday: ['$2 off Flights'],
-      sunday: ['$2.50 Domestics', '$3.50 Craft/Import Drafts', '$.75 Bone-In Wings (in batches of 6)']
+      saturday: ['$2 off All Whiskey Flights'],
+      sunday: ['$2.50 Domestics', '$3.50 Craft/Import Drafts']
     },
     happyHours: [
       {
-        time: '4-6pm',
+        time: '3-6pm',
         specials: ['$2 Domestic Pints', '$3 Craft Pints', '$5 Select Apps'],
         dow: ['monday', 'tuesday', 'wednesday', 'thursday', 'friday']
       }
@@ -743,32 +792,32 @@ export default [
     googleMap: 'https://goo.gl/maps/jYqANLZYDgKW2uM38',
     openHours: {
       monday: {
-        open: 1030,
-        close: 2300
+        open: 1045,
+        close: 2200
       },
       tuesday: {
-        open: 1030,
-        close: 2300
+        open: 1045,
+        close: 2200
       },
       wednesday: {
-        open: 1030,
-        close: 2300
+        open: 1045,
+        close: 2200
       },
       thursday: {
-        open: 1030,
-        close: 2300
+        open: 1045,
+        close: 2200
       },
       friday: {
-        open: 1100,
-        close: 2400
+        open: 1045,
+        close: 2300
       },
       saturday: {
-        open: 1100,
-        close: 2400
+        open: 1045,
+        close: 2300
       },
       sunday: {
-        open: 1100,
-        close: 2400
+        open: 1045,
+        close: 2200
       }
     },
     specials: {
@@ -1042,11 +1091,11 @@ export default [
       }
     },
     specials: {
-      monday: ['$20 for 2 Meals', '20% Discount w/ POA Activity Card', '10% Discount w/ POA Member Card'],
+      monday: ['20% Discount w/ POA Activity Card', '10% Discount w/ POA Member Card'],
       tuesday: ['$20 Prime Rib Special (4pm Until Sold Out)'],
       wednesday: [],
-      thursday: ['$12 Chicken Fried Steak'],
-      friday: [],
+      thursday: ['$12 BBQ Baby Back Ribs - 1/2 rack w/ choice of side'],
+      friday: ['Seafood Specials'],
       saturday: [],
       sunday: []
     },
@@ -1057,11 +1106,6 @@ export default [
         dow: ['saturday', 'monday', 'tuesday', 'wednesday', 'friday']
       },
       {
-        time: 'Game Day Specials',
-        specials: ['$9 60oz Domestic Pitchers', '$8 Loaded Nachos', '$7 Jumbo Wings', '$7 Chicken Tenders', '$7 Pulled Pork Sliders', '$6 Chips & Queso'],
-        dow: ['saturday', 'sunday']
-      },
-      {
         time: 'All Day Happy Hour',
         specials: ['$3 Wines', '$3 Wells', '$3 Brews'],
         dow: ['thursday', 'sunday']
@@ -1070,11 +1114,6 @@ export default [
         time: '2-5pm',
         specials: ['Early Dining Specials'],
         dow: ['saturday', 'sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday']
-      },
-      {
-        time: '3-6pm',
-        specials: ['1/2 Price Appetizers'],
-        dow: ['friday']
       }
     ]
   },
@@ -1172,13 +1211,13 @@ export default [
       }
     },
     specials: {
-      monday: ['$6 Chicken Chunks during NFL games'],
-      tuesday: ['1/2 Price Burgers (4-10pm)'],
+      monday: ['$3 Moscow Mules'],
+      tuesday: ['1/2 Price Burgers (4-9pm)', "$3 Tito's"],
       wednesday: ['$3 House Margaritas (rocks or frozen)', '$3 House Tequila', '$3 Mexican Bottles', '$7.99 Blackened Fish Tacos', '$2.99 Chips & Queso (+$1 add salsa)'],
-      thursday: ['$2.25 Domestic Bottles (after 4pm)', "$3 Bartender's Choice Shots", '$6 Chicken Chunks during NFL games'],
+      thursday: ['$2.25 Domestic Bottles (after 4pm)', '$3 Jim Beam', "$3 Bartender's Choice Shots", '$6 Chicken Chunks during NFL games'],
       friday: ['$3 Fireball Shots', "$3 Bartender's Choice Shots", '$9.99 French Dip'],
       saturday: ["$3 Bartender's Choice Shots", '$3 Boss Hog Shots', '$5 ?'],
-      sunday: ['$3 Mimosas', '$3 Bloody Marys', '$3 Screwdrivers', '$10 Champagne Bottles', '$2 Orange Juice']
+      sunday: ['$3 Mimosas', '$3 Bloody Marys', '$3 Screwdrivers', '$12 Mimosa Buckets']
     },
     happyHours: [
       {
